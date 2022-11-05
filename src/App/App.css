@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.paint {
+  width: 35%;
+  border-radius: 15px;
+}
+
+button {
+  width: 300px;
+  height: 120px;
+  border: 2px solid #008080;
+  box-shadow: 2px 4px 6px #008080;
+  background-color: #e0ffff;
+  border-radius: 15px;
+}
+
+button:hover {
+  border: 2px solid black;
+  box-shadow: 2px 4px 4px black;
+  background-color: #008080;
+  border-radius: 15px;
+}
+
+.desc {
+  margin: 10px;
+
+}
+
+.orderList-text {
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  margin: auto 5px;
+  width: 25%;
+  font-weight: bold;
+}
